@@ -1,4 +1,5 @@
 package zoo;
 
-public class Animal {
+public interface Animal {
+    void accept(AnimalVisitor visitor);
 }
